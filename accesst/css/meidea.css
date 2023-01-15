@@ -197,8 +197,25 @@ this is sponspore
   /*----------------------------------------
    this is  my section
    --------------------------------------------  */
+  .Homeless{
+    width:100%;
+  }
+  .Homeless h2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom:5px;
+  }
+  .homeles-titem{
+        
+  }
+  .home-tex{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 43px;
+        margin-bottom:20px;
 
-
+  }
   /*------------------------------------------
    this is the footer
    ----------------------------------------------- */

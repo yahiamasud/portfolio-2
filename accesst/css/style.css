@@ -296,6 +296,26 @@ this is the features you will section
 /*----------------------------------------------------------
 this is the my section
 ------------------------------------------------------------------*/
+.Homeless{
+    margin-top:50px;
+    text-align: center;
+}
+.Homeless h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 63px;
+    margin-bottom:5px;
+}
+.homeles-titem{
+    
+}
+.home-tex{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53px;
+    margin-bottom:50px;
+
+}
 
 /*-------------------------------------------
  this is the footer
