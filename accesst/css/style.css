@@ -186,7 +186,7 @@ this is the features you will section
 -------------------------------------------------------*/
 .featur{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2 , 1fr);
     margin-top:130px;
 }
 .teatur-item{
@@ -219,6 +219,7 @@ this is the features you will section
 }
 .featur-img{
     position: relative;
+    text-align: center;
 }
 .box{
     width:142px;
@@ -242,7 +243,7 @@ this is the features you will section
     font-size: 25px;
     line-height: 40px;
 } 
-.mg-postion{
+.img-postion{
     width:708px;
 }
 /*----------------------------------------
@@ -295,30 +296,7 @@ this is the features you will section
 /*----------------------------------------------------------
 this is the my section
 ------------------------------------------------------------------*/
-.card{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top:130px;
-    margin-bottom:130px;
-}
-.card-tiem{
-    display: flex;
-    gap:20px;
-}
-.card-box{
-    border:1px solid rgb(125, 124, 126);
-    border-radius: 5px;
-    margin-top:30px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
-}
-.card h2{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-}
 /*-------------------------------------------
  this is the footer
  ----------------------------------------------- */

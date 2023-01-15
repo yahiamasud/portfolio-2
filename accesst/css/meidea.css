@@ -1,5 +1,8 @@
-/* this is the phone  use*/
-@media only screen and (max-width: 576px) {
+/*-----------------------------------------
+ this is the phone  use--
+ --------------------------------------------*/
+
+@media only screen and (max-width: 516px) {
   .container{
     width:100%;
    
@@ -7,7 +10,9 @@
   .img-fliud{
     width:100%;
   }
-  /* this is header nav */
+  /*---------------------------------------------
+   this is header nav
+   ------------------------------------------------ */
   .nav{
    display: grid;
    justify-content:center;
@@ -28,7 +33,9 @@
       padding:5px;
     
   }
-  /* this is the bannar text */
+  /*-------------------------------------------------
+   this is the bannar text-------------------------
+   ---------------------------------------------------- */
 
   .banar-text{
     width:100%;
@@ -57,9 +64,13 @@
     font-size:10px;
     background-color:#ff900e ;
   }
-/* this is the main section  */
+/*----------------------------------------------
+ this is the main section 
+ ---------------------------------------------- */
 
-/* this is the quick section  */
+/*----------------------------------------------------
+ this is the quick section
+ --------------------------------------------------  */
   .container-quick{
     width:100%;
   }
@@ -93,17 +104,111 @@
     width:100%;
     padding:5px;
   }
-/* this is the  */
+/*--------------------------------------------
+ this is the features
+ -------------------------------------------------- */
+    .featur{
+      width:90%;
+      grid-template-columns: repeat(1,1fr);
+      margin:10px;
+    }
+    .teatur-item h2{
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .teatur-item-1{
+      padding:0px;
+    }
+    .teatur-item p{
+      font-size:10px;
+      padding:20px;
+    }
+    .teatur-item{
+      text-align: center;
+      margin-right:0px;
+    }
+    .featur-text{
+      width:100%;
+      margin-right:0px;
+    }
+    .box{
+      margin-left:15px;
+      justify-items: center;
+      padding:0px;
+      bottom:-70px;
+     
+    }
+    .featur-img{
+     
+      margin-bottom:120PX;
+    }
+    .img-postion{
+      width:100%;
+  }
+/*-------------------------------------------
+  this is the facts-----------
+  ------------------------------------------  */
+    .Faccts{
+      width:90%;
+      margin:10px;
+      
+    }
+    .fact-item{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      text-align: center;
+      gap:10px;
+      
+  }
+  .fact-box{
+   padding:5px;
+  }
+/*------------------------------------------
+this is sponspore
+---------------------------------------------- */
+
+  .sponspor{
+    text-align: center;
+  }
+
+  .sponspor-item{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content:none;
+  }
+  .sponspor p{
+    font-size:10px;
+    font-size: 10px;
+    line-height:10px;
+  }
+  .sponspor h2{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .img-item{
+    width:100%;
+  text-align: center;
+  
+  }
+
+  /*----------------------------------------
+   this is  my section
+   --------------------------------------------  */
 
 
-
-
-
-
-
-
-
-
+  /*------------------------------------------
+   this is the footer
+   ----------------------------------------------- */
+  .footer{
+    width:100%;
+  }
+  .footer-text{
+    text-align: center;
+    padding:0px;
+  }
 
 
 
@@ -136,6 +241,4 @@
 
 
 }
-
-
 
