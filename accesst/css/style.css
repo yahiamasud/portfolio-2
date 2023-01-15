@@ -147,6 +147,8 @@ this is header nav
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
     gap:24px;
+    margin:5px;
+   
 }
 .quick-text{
    margin-left:48px;
@@ -330,4 +332,8 @@ this is the my section
     background: #FFF4E7;
     border-radius: 8px;
     padding:39px;
+}
+
+.hide{
+    display: none;
 }
