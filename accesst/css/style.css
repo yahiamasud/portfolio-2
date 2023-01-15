@@ -1,0 +1,314 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* this is the header */
+.container-fluid{
+    width:100vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:1200px;
+}
+.img-fluid{
+    width:100%;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* this is header nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    align-items: center;
+    
+}
+.logo h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color:black;
+}
+.nav-bar ul{
+    display: flex;
+    list-style:none;
+    justify-content: flex-end;
+   
+}
+.nav-bar ul li{
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242 ;
+    border-radius:10px;
+    transition: all 1s;
+}
+.nav-bar ul li a:hover{
+    background-color: aquamarine;
+}
+/* this is the header bannar text */
+.banar-text{
+    text-align: center;
+    width:862px;
+    margin-left:190px;
+    margin-top:150px;
+}
+.bnnar-info{
+  text-align: center;
+}
+.bnnar-info h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    
+ }
+ .bnnar-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 30px;
+    margin-bottom: 32px;
+ }
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#ff900e ;
+    padding: 21px 24px;
+    border-radius:10px;
+    margin-bottom:50px;
+    transition: all 1s;
+    border: none;
+}
+.btn:hover{
+   background-color: aqua;
+}
+/* <!-- this is the bannar- img --> */
+.img-but{
+    margin-bottom:45px;
+}
+/* this is the main start */
+.container-fluid-t{
+    width:100vw;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+.container-quick{
+    width: 537px;
+    height: 304px;
+}
+/* this is the section quick */
+
+.quick{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin-top:85px;
+}
+.quick-img{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap:24px;
+}
+.quick-text{
+   margin-left:48px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+    
+
+}
+.quick-text h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color:#727272;
+    margin-bottom:24px;
+}
+.quick-text h2 .ofour{
+    color: #131313;
+    font-weight: 700;
+}
+.quick-text .feat{
+    color: #FF900E
+}
+.quick-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom:32px;
+}
+.btn-w{
+    width:180px;
+    border:none;
+}
+/* this is the features you will section */
+.featur{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:130px;
+}
+.teatur-item{
+  margin-bottom:30px;
+}
+.featur-text{
+    margin-right:146px;
+}
+.teatur-item h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left:5px solid sandybrown;
+    padding-left:21px;
+    margin-bottom: 24px;
+    
+}
+.teatur-item-1{
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 20px;
+}
+.teatur-item-1 h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom:10px ;
+}
+.featur-img{
+    position: relative;
+}
+.box{
+    width:142px;
+    padding:42px;
+    color: white;
+    position: absolute;
+    bottom:10px;
+    left:-50px;
+    text-align: center;
+    background: #FF900E;
+    border-radius: 8px;
+
+
+}
+.box h2{
+    font-style: normal;
+    font-weight:700;
+    font-size: 65px;
+    line-height: 70px;
+}
+.box p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+} 
+
+.mg-postion{
+    width:708px;
+}
+/* this is the facts */
+.Faccts{
+    margin-top:130px;
+}
+.Faccts h2{
+    margin-bottom: 24px;
+}
+.fact-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:180px;
+}
+.fact-box{
+    padding:40px;
+    border:1px solid #FF900E ;
+    border-radius:8px;
+    
+}
+.fact-box:hover img {
+    transform: rotate(360deg);
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* this is the sponspors section */
+.sponspor{
+    text-align: center;
+}
+.sponspor h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom:24px;
+}
+.sponspor-item{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-item img{
+   filter: luminosity(90%);
+}
+/* this is the my section */
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:130px;
+    margin-bottom:130px;
+}
+.card-tiem{
+    display: flex;
+    gap:20px;
+}
+.card-box{
+    border:1px solid rgb(125, 124, 126);
+    border-radius: 5px;
+    margin-top:30px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.card h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+/* this is the footer */
+.footer{
+    text-align: center;
+    margin-top:130px;
+    margin-bottom:130px;
+   
+}
+.footer-text{
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding:39px;
+}
